@@ -13,6 +13,8 @@
 		7CC6F68427D69A12004B2F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC6F68227D69A12004B2F86 /* Main.storyboard */; };
 		7CC6F68627D69A13004B2F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC6F68527D69A13004B2F86 /* Assets.xcassets */; };
 		7CC6F68927D69A13004B2F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC6F68727D69A13004B2F86 /* LaunchScreen.storyboard */; };
+		7CC6F69127D69A3D004B2F86 /* RoundChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6F69027D69A3D004B2F86 /* RoundChartView.swift */; };
+		7CC6F69327D69B8F004B2F86 /* ChartSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6F69227D69B8F004B2F86 /* ChartSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7CC6F68527D69A13004B2F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CC6F68827D69A13004B2F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7CC6F68A27D69A13004B2F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC6F69027D69A3D004B2F86 /* RoundChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundChartView.swift; sourceTree = "<group>"; };
+		7CC6F69227D69B8F004B2F86 /* ChartSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				7CC6F67C27D69A12004B2F86 /* AppDelegate.swift */,
 				7CC6F67E27D69A12004B2F86 /* SceneDelegate.swift */,
 				7CC6F68027D69A12004B2F86 /* ViewController.swift */,
+				7CC6F69027D69A3D004B2F86 /* RoundChartView.swift */,
+				7CC6F69227D69B8F004B2F86 /* ChartSection.swift */,
 				7CC6F68227D69A12004B2F86 /* Main.storyboard */,
 				7CC6F68527D69A13004B2F86 /* Assets.xcassets */,
 				7CC6F68727D69A13004B2F86 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC6F69127D69A3D004B2F86 /* RoundChartView.swift in Sources */,
 				7CC6F68127D69A12004B2F86 /* ViewController.swift in Sources */,
 				7CC6F67D27D69A12004B2F86 /* AppDelegate.swift in Sources */,
 				7CC6F67F27D69A12004B2F86 /* SceneDelegate.swift in Sources */,
+				7CC6F69327D69B8F004B2F86 /* ChartSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
