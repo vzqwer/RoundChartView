@@ -8,8 +8,6 @@
 import UIKit
 
 struct ChartSection {
-    static let desiredMinFactor: Double = 0.04
-
     let value: Double
     let color: UIColor
 }
